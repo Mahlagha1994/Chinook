@@ -4,12 +4,12 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-This repository contains sql quesries and a notebook for analyzing the Chinook Data
+This repository contains SQL queries, Visual Analysis and a PowerBI dashboard for analyzing the Chinook Database. The Chinook data model represents a digital media store, including tables for artists, albums, media tracks, invoices, and customers. Media-related data was created using real data from an Apple iTunes library.
 
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
+
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -26,9 +26,6 @@ This repository contains sql quesries and a notebook for analyzing the Chinook D
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for chinook_data_analysis
-│                         and configuration for tools like black
-│
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
@@ -36,8 +33,7 @@ This repository contains sql quesries and a notebook for analyzing the Chinook D
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
+
 │
 └── chinook_data_analysis                <- Source code for use in this project.
     │
