@@ -1,6 +1,7 @@
-black
-flake8
-isort
-pip
-python-dotenv
--e .
+sqlalchemy==2.0.31     # For SQL database interaction
+pandas==2.2.2          # For data manipulation
+json==3.36.0         # For Json Files
+mysql.connector==2.2.9     # For connection between python and MySQl
+matplotlib==3.4.2      # For data visualization
+seaborn==0.11.2        # For data visualization
+scipy== 1.14.0         # For Statistical Computing
