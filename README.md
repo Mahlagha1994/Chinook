@@ -1,58 +1,25 @@
-# Chinook Data Analysis
+# Chinook Data Analysis Project
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+The Chinook data model simulates a digital media store, featuring tables for artists, albums, media tracks, invoices, and customers. The media-related data was derived from an Apple iTunes library.
 
-The Chinook data model represents a digital media store, including tables for artists, albums, media tracks, invoices, and customers. Media-related data was created using real data from an Apple iTunes library. This repository contains a pdf file of SQL queries (in docs folder), statistical analysis (in notebooks folder), Visual Analysis and a PowerBI dashboard (in reports folder) about chinook database. 
+**Objective:**  
+Perform Exploratory Data Analysis (EDA) on the Chinook database to address key business questions and gain insights into sales trends.
+
+**Approach:**
+
+- **Data Extraction and Analysis:** Developed SQL queries to extract data related to sales, customer behavior, and product performance from the Chinook database.
+- **Exploratory Data Analysis:** Conducted EDA and statistical analysis to uncover key features, patterns, and trends in sales and market dynamics.
+- **Visualization and Reporting:** Created interactive dashboards using Power BI with DAX formulas and Matplotlib, enabling real-time data connectivity and effective presentation of insights.
+- 
+**Tools:**  
+- **Database:** MySQL  
+- **Data Analysis and Visualization:** Python (Pandas, Scikit-learn, Matplotlib), Power BI
 
 ## Project Organization
 
-```
+This repository includes:
 
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-
-│
-└── chinook_data_analysis                <- Source code for use in this project.
-    │
-    ├── __init__.py    <- Makes chinook_data_analysis a Python module
-    │
-    ├── data           <- Scripts to download or generate data
-    │   └── make_dataset.py
-    │
-    ├── features       <- Scripts to turn raw data into features for modeling
-    │   └── build_features.py
-    │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions
-    │   ├── predict_model.py
-    │   └── train_model.py
-    │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
-        └── visualize.py
-```
-
---------
+- **SQL Queries:** PDF file located in the `docs` folder
+- **Statistical Analysis:** Jupyter notebooks in the `notebooks` folder
+- **Visual Analysis & Power BI Dashboard:** Reports available in the `reports` folder
 
